@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#090d16"/>
+    </linearGradient>
+
+    <!-- Glowing Accent Gradients -->
+    <linearGradient id="accent-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="accent-purple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+
+    <!-- CSS Animations -->
+    <style>
+      @keyframes floatPulse {
+        0%, 100% { transform: translateY(0px) scale(1); opacity: 0.35; }
+        50% { transform: translateY(-10px) scale(1.03); opacity: 0.55; }
+      }
+      @keyframes waveFlow {
+        0% { stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: -100; }
+      }
+      @keyframes nodeGlow {
+        0%, 100% { opacity: 0.3; r: 4px; }
+        50% { opacity: 0.9; r: 7px; }
+      }
+      @keyframes scanLine {
+        0% { transform: translateY(0px); opacity: 0.2; }
+        50% { opacity: 0.7; }
+        100% { transform: translateY(360px); opacity: 0.2; }
+      }
+      .bg-card { animation: floatPulse 6s ease-in-out infinite; }
+      .bg-card-delay { animation: floatPulse 7s ease-in-out infinite 2.5s; }
+      .wave-line { stroke-dasharray: 12 8; animation: waveFlow 20s linear infinite; }
+      .node-dot { animation: nodeGlow 3s ease-in-out infinite; }
+      .title-text { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 800; }
+      .sub-text { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 500; }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" rx="16" fill="url(#bg-grad)"/>
+
+  <!-- Background Dynamic Network Waves (Behind Text) -->
+  <g opacity="0.25">
+    <path d="M-100,280 C200,180 400,340 700,220 C1000,100 1100,290 1300,200" fill="none" stroke="url(#accent-cyan)" stroke-width="2" class="wave-line"/>
+    <path d="M-100,120 C300,260 500,80 800,240 C1000,380 1150,150 1300,280" fill="none" stroke="url(#accent-purple)" stroke-width="2" class="wave-line" style="animation-duration: 15s; animation-direction: reverse;"/>
+  </g>
+
+  <!-- Background Decorative Cyber Cards / Nodes (Lower z-index opacity) -->
+  <g class="bg-card" opacity="0.35">
+    <rect x="70" y="40" width="180" height="70" rx="10" fill="#1e293b" stroke="#38bdf8" stroke-width="1"/>
+    <text x="90" y="70" fill="#38bdf8" font-size="13" class="sub-text">🛡️ SCA Scanning</text>
+    <text x="90" y="92" fill="#94a3b8" font-size="11" class="sub-text">100% Vuln Coverage</text>
+  </g>
+
+  <g class="bg-card-delay" opacity="0.35">
+    <rect x="950" y="50" width="180" height="70" rx="10" fill="#1e293b" stroke="#a855f7" stroke-width="1"/>
+    <text x="970" y="80" fill="#c084fc" font-size="13" class="sub-text">⚡ Auto Dependency</text>
+    <text x="970" y="102" fill="#94a3b8" font-size="11" class="sub-text">PR Updates Active</text>
+  </g>
+
+  <g class="bg-card" opacity="0.3">
+    <rect x="920" y="240" width="200" height="75" rx="10" fill="#1e293b" stroke="#10b981" stroke-width="1"/>
+    <text x="940" y="270" fill="#34d399" font-size="13" class="sub-text">📦 Supply Chain Guard</text>
+    <text x="940" y="292" fill="#94a3b8" font-size="11" class="sub-text">Malicious Package Alert</text>
+  </g>
+
+  <!-- Animated Glowing Network Nodes -->
+  <circle cx="280" cy="120" r="5" fill="#38bdf8" class="node-dot"/>
+  <circle cx="880" cy="140" r="5" fill="#c084fc" class="node-dot" style="animation-delay: 1s;"/>
+  <circle cx="160" cy="270" r="5" fill="#34d399" class="node-dot" style="animation-delay: 2s;"/>
+
+  <!-- Foreground Main Content Container -->
+  <g transform="translate(600, 180)" text-anchor="middle" filter="url(#shadow)">
+    <!-- Main Header -->
+    <text y="-25" fill="url(#text-grad)" font-size="44" class="title-text" letter-spacing="0.5">
+      Awesome Dependency Management
+    </text>
+    <text y="25" fill="#f8fafc" font-size="34" class="title-text" letter-spacing="1">
+      Platform Ecosystem
+    </text>
+
+    <!-- Decorative Foreground Pill Badge -->
+    <g transform="translate(0, 70)">
+      <rect x="-310" y="-18" width="620" height="36" rx="18" fill="#1e1b4b" stroke="#6366f1" stroke-width="1.5"/>
+      <text y="5" fill="#e2e8f0" font-size="14" class="sub-text" letter-spacing="0.3">
+        🔍 Software Composition Analysis (SCA) • 🛡️ Supply Chain Security • ⚡ Automated Updates
+      </text>
+    </g>
+  </g>
+
+  <!-- Top & Bottom Border Glow Line -->
+  <rect x="0" y="0" width="1200" height="4" fill="url(#accent-cyan)"/>
+  <rect x="0" y="356" width="1200" height="4" fill="url(#accent-purple)"/>
+</svg>
