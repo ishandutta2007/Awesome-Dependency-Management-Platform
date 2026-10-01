@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Dependency-Management-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Dependency-Management-Platform?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Dependency-Management-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Dependency-Management-Platform?style=flat-square&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Dependency-Management-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Dependency-Management-Platform?style=flat-square&color=blue" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Dependency-Management-Platform/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Dependency-Management-Platform?style=flat-square&color=green" alt="License"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Dependency-Management-Platform/commits/main"><img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Dependency-Management-Platform?style=flat-square&color=orange" alt="Last Commit"/></a>
@@ -62,51 +62,51 @@ The table below details leading commercial platforms, sorted by **Company Scale*
 
 ## 🔓 Open-Source GitHub Projects
 
-The dependency management ecosystem features a vibrant open-source landscape. Below are top-tier open-source tools sorted by **GitHub Stars** in descending order:
+The dependency management ecosystem features a vibrant open-source landscape. Below are top-tier open-source tools sorted by **GitHub_Stars** in descending order:
 
-1. **[Trivy](https://github.com/aquasecurity/trivy)** [![GitHub stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=social&color=white)](https://github.com/aquasecurity/trivy/stargazers)  
+1. **[Trivy](https://github.com/aquasecurity/trivy)** [![GitHub_Stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=social&color=white)](https://github.com/aquasecurity/trivy/stargazers)  
    *Comprehensive, versatile open-source security scanner maintained by Aqua Security. Scans container images, local filesystems, Git repositories, Kubernetes configurations, secrets, and SBOMs.*
 
-2. **[Renovate OSS](https://github.com/renovatebot/renovate)** [![GitHub stars](https://img.shields.io/github/stars/renovatebot/renovate?style=social&color=white)](https://github.com/renovatebot/renovate/stargazers)  
+2. **[Renovate OSS](https://github.com/renovatebot/renovate)** [![GitHub_Stars](https://img.shields.io/github/stars/renovatebot/renovate?style=social&color=white)](https://github.com/renovatebot/renovate/stargazers)  
    *The gold-standard open-source automated dependency update tool (AGPL-3.0). Supports npm, pip, Maven, Gradle, Go, Docker, Helm, Terraform, and seamlessly creates pull requests across GitHub, GitLab, Bitbucket, and Azure DevOps.*
 
-3. **[Grype](https://github.com/anchore/grype)** [![GitHub stars](https://img.shields.io/github/stars/anchore/grype?style=social&color=white)](https://github.com/anchore/grype/stargazers)  
+3. **[Grype](https://github.com/anchore/grype)** [![GitHub_Stars](https://img.shields.io/github/stars/anchore/grype?style=social&color=white)](https://github.com/anchore/grype/stargazers)  
    *Fast vulnerability scanner for container images and filesystems developed by Anchore. Optimized for SBOM-first scanning workflows when paired with Syft.*
 
-4. **[OSV-Scanner](https://github.com/google/osv-scanner)** [![GitHub stars](https://img.shields.io/github/stars/google/osv-scanner?style=social&color=white)](https://github.com/google/osv-scanner/stargazers)  
+4. **[OSV-Scanner](https://github.com/google/osv-scanner)** [![GitHub_Stars](https://img.shields.io/github/stars/google/osv-scanner?style=social&color=white)](https://github.com/google/osv-scanner/stargazers)  
    *Google's open-source vulnerability scanner powered by the Open Source Vulnerabilities (OSV) database. Provides precise, ecosystem-specific CVE matching for project dependencies and SBOMs.*
 
-5. **[Syft](https://github.com/anchore/syft)** [![GitHub stars](https://img.shields.io/github/stars/anchore/syft?style=social&color=white)](https://github.com/anchore/syft/stargazers)  
+5. **[Syft](https://github.com/anchore/syft)** [![GitHub_Stars](https://img.shields.io/github/stars/anchore/syft?style=social&color=white)](https://github.com/anchore/syft/stargazers)  
    *CLI tool and Go library for generating a Software Bill of Materials (SBOM) from container images and filesystems in SPDX, CycloneDX, and Syft native formats.*
 
-6. **[OWASP Dependency-Check](https://github.com/dependency-check/DependencyCheck)** [![GitHub stars](https://img.shields.io/github/stars/dependency-check/DependencyCheck?style=social&color=white)](https://github.com/dependency-check/DependencyCheck/stargazers)  
+6. **[OWASP Dependency-Check](https://github.com/dependency-check/DependencyCheck)** [![GitHub_Stars](https://img.shields.io/github/stars/dependency-check/DependencyCheck?style=social&color=white)](https://github.com/dependency-check/DependencyCheck/stargazers)  
    *Mature, battle-tested OWASP Software Composition Analysis (SCA) tool. Detects publicly disclosed vulnerabilities in project dependencies across Java, .NET, JavaScript, Python, Ruby, and C/C++.*
 
-7. **[Cosign](https://github.com/sigstore/cosign)** [![GitHub stars](https://img.shields.io/github/stars/sigstore/cosign?style=social&color=white)](https://github.com/sigstore/cosign/stargazers)  
+7. **[Cosign](https://github.com/sigstore/cosign)** [![GitHub_Stars](https://img.shields.io/github/stars/sigstore/cosign?style=social&color=white)](https://github.com/sigstore/cosign/stargazers)  
    *Container signing, verification, and storage in an OCI registry. Part of the Linux Foundation's Sigstore project for securing software supply chains.*
 
-8. **[Dependabot Core](https://github.com/dependabot/dependabot-core)** [![GitHub stars](https://img.shields.io/github/stars/dependabot/dependabot-core?style=social&color=white)](https://github.com/dependabot/dependabot-core/stargazers)  
+8. **[Dependabot Core](https://github.com/dependabot/dependabot-core)** [![GitHub_Stars](https://img.shields.io/github/stars/dependabot/dependabot-core?style=social&color=white)](https://github.com/dependabot/dependabot-core/stargazers)  
    *The core open-source engine powering GitHub's native Dependabot service. Handles parsing manifest files, fetching dependency updates, and generating automated PR changes.*
 
-9. **[OWASP Dependency-Track](https://github.com/DependencyTrack/dependency-track)** [![GitHub stars](https://img.shields.io/github/stars/DependencyTrack/dependency-track?style=social&color=white)](https://github.com/DependencyTrack/dependency-track/stargazers)  
+9. **[OWASP Dependency-Track](https://github.com/DependencyTrack/dependency-track)** [![GitHub_Stars](https://img.shields.io/github/stars/DependencyTrack/dependency-track?style=social&color=white)](https://github.com/DependencyTrack/dependency-track/stargazers)  
    *Intelligent Software Supply Chain Component Analysis platform. Consumes CycloneDX SBOMs to continuously monitor component vulnerabilities across an entire organization.*
 
-10. **[GUAC (Graph for Understanding Artifact Composition)](https://github.com/guacsec/guac)** [![GitHub stars](https://img.shields.io/github/stars/guacsec/guac?style=social&color=white)](https://github.com/guacsec/guac/stargazers)  
+10. **[GUAC (Graph for Understanding Artifact Composition)](https://github.com/guacsec/guac)** [![GitHub_Stars](https://img.shields.io/github/stars/guacsec/guac?style=social&color=white)](https://github.com/guacsec/guac/stargazers)  
     *Aggregates software security metadata (SBOMs, SLSA attestations, OSV findings) into a unified graph database to answer complex security and supply chain queries.*
 
-11. **[pip-audit](https://github.com/pypa/pip-audit)** [![GitHub stars](https://img.shields.io/github/stars/pypa/pip-audit?style=social&color=white)](https://github.com/pypa/pip-audit/stargazers)  
+11. **[pip-audit](https://github.com/pypa/pip-audit)** [![GitHub_Stars](https://img.shields.io/github/stars/pypa/pip-audit?style=social&color=white)](https://github.com/pypa/pip-audit/stargazers)  
     *Official PyPA tool for scanning Python environments and dependency manifests for known vulnerabilities using the PyPI JSON API and OSV database.*
 
-12. **[cdxgen](https://github.com/cdxgen/cdxgen)** [![GitHub stars](https://img.shields.io/github/stars/cdxgen/cdxgen?style=social&color=white)](https://github.com/cdxgen/cdxgen/stargazers)  
+12. **[cdxgen](https://github.com/cdxgen/cdxgen)** [![GitHub_Stars](https://img.shields.io/github/stars/cdxgen/cdxgen?style=social&color=white)](https://github.com/cdxgen/cdxgen/stargazers)  
     *Multi-language CycloneDX SBOM generator supporting Java, JavaScript, Python, Go, Rust, C/C++, Ruby, PHP, .NET, Android, and iOS.*
 
-13. **[in-toto](https://github.com/in-toto/in-toto)** [![GitHub stars](https://img.shields.io/github/stars/in-toto/in-toto?style=social&color=white)](https://github.com/in-toto/in-toto/stargazers)  
+13. **[in-toto](https://github.com/in-toto/in-toto)** [![GitHub_Stars](https://img.shields.io/github/stars/in-toto/in-toto?style=social&color=white)](https://github.com/in-toto/in-toto/stargazers)  
     *Framework to verify the integrity of the software supply chain from development to deployment by recording and verifying cryptographic attestations at every step.*
 
-14. **[Updatecli](https://github.com/updatecli/updatecli)** [![GitHub stars](https://img.shields.io/github/stars/updatecli/updatecli?style=social&color=white)](https://github.com/updatecli/updatecli/stargazers)  
+14. **[Updatecli](https://github.com/updatecli/updatecli)** [![GitHub_Stars](https://img.shields.io/github/stars/updatecli/updatecli?style=social&color=white)](https://github.com/updatecli/updatecli/stargazers)  
     *Declarative, policy-driven dependency update automation tool using YAML definitions. Supports files, Docker images, Helm charts, Terraform providers, and Git repositories.*
 
-15. **[Socket CLI](https://github.com/SocketDev/socket-cli)** [![GitHub stars](https://img.shields.io/github/stars/SocketDev/socket-cli?style=social&color=white)](https://github.com/SocketDev/socket-cli/stargazers)  
+15. **[Socket CLI](https://github.com/SocketDev/socket-cli)** [![GitHub_Stars](https://img.shields.io/github/stars/SocketDev/socket-cli?style=social&color=white)](https://github.com/SocketDev/socket-cli/stargazers)  
     *Open-source CLI tool for Socket.dev. Enables developers to run local security scans, perform package scoring, generate SBOMs, and auto-fix vulnerable packages (`socket fix`).*
 
 ---
